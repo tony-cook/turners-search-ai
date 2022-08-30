@@ -1,11 +1,13 @@
 const removePunctuation = require('../removePunctuation.js')
 
 describe('trimming functionality',function() {
+
+
     it('The function removePunctuation exists', function() {
         expect(removePunctuation).toBeDefined();
     })
 
-    it('Takes in a users text string as a parameter', function() {
+    it('This function takes in a text string as a parameter', function() {
         const userQuery = "hello world"
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
@@ -13,7 +15,7 @@ describe('trimming functionality',function() {
         expect(actual).toBe(expected)
     })
 
-    it('Function replaces punctuation with a space', function() {
+    it('This function removes punctations and replaces it with a space', function() {
         const userQuery = `hello%world`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
@@ -21,35 +23,35 @@ describe('trimming functionality',function() {
         expect(actual).toBe(expected)
     })
 
-    it('When punctuation removed returns true', function() {
+    it('When punctuation is removed and returns the expected result the test passes', function() {
         const userQuery = `hello world`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
 
         expect(actual).toBe(expected)
     })
-    it('When punctuation removed returns true', function() {
+    it('When punctuation is removed and returns the expected result the test passes', function() {
         const userQuery = `hello%world`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
 
         expect(actual).toBe(expected)
     })
-    it('When punctuation removed returns true', function() {
+    it('When punctuation is removed and returns the expected result the test passes', function() {
         const userQuery = `!hello world`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
 
         expect(actual).toBe(expected)
     })
-    it('When punctuation removed returns true', function() {
+    it('When punctuation is removed and returns the expected result the test passes', function() {
         const userQuery = `hello?world!`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
 
         expect(actual).toBe(expected)
     })
-    it('When punctuation removed returns true', function() {
+    it('When punctuation is removed and returns the expected result the test passes', function() {
         const userQuery = `hello;world`
         const expected = "hello world"
         const actual = removePunctuation(userQuery)
