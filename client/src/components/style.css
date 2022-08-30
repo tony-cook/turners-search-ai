@@ -1,0 +1,148 @@
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.navigation1 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  word-spacing: 1px;
+  margin-top: 10px;
+}
+
+.links {
+  padding: 12px;
+  color: #1480c3;
+}
+#logo {
+  height: 60%;
+  padding-top: 35px;
+  padding-left: 160px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.navigation2 {
+  font-size: 16px;
+  word-spacing: 0px;
+  padding-left: 580px;
+  padding-top: 40px;
+}
+.auth {
+  font-weight: 600;
+  color: #1380c2;
+}
+.contact {
+  padding-left: 30px;
+  word-spacing: 0px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.translate {
+  padding-left: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #b61234;
+}
+
+.navigation3 {
+  display: flex;
+  height: 50px;
+  color: white;
+  font-size: 16.5px;
+  font-weight: 600;
+  background-color: rgb(0, 118, 190);
+  margin-top: 24px;
+  padding-left: 160px;
+}
+.dropdown {
+  padding-left: 40px;
+  white-space: nowrap;
+  height: 50px;
+  padding-top: 15px;
+}
+.dropdown-right {
+  padding-left: 180px;
+}
+.left-margin {
+  width: 80px;
+  height: 2000px;
+  background-color: rgb(238, 238, 238);
+}
+
+.right-margin {
+  width: 80px;
+  height: 2000px;
+  background-color: rgb(238, 238, 238);
+  margin-left: 230px;
+}
+
+.content {
+  padding-top: 17px;
+  padding-left: 80px;
+  text-decoration: none;
+  font-size: 12.5px;
+  width: 1100px;
+}
+.seprator {
+  letter-spacing: -100px;
+}
+
+.heading1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+  word-spacing: 1px;
+}
+.heading2 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.heading3 {
+  font-size: 14px;
+  margin-top: 15px;
+  color: rgb(102, 102, 102);
+}
+.search-input {
+  margin-top: 30px;
+}
+.search-bar {
+  width: 500px;
+  height: 20px;
+  padding: 5px;
+}
+.search-button {
+  margin-left: 40px;
+  height: 32px;
+  width: 60px;
+}
+.search-total {
+  width: 85%;
+  text-align: right;
+  padding: 50px;
+  font-size: 18px;
+}
+.search-results {
+  margin-top: -75px;
+}
+.result-container {
+  padding: 15px;
+  width: 90%;
+  border: 1px solid #d2d2d2;
+}
+.result-question {
+  font-size: 16px;
+  font-weight: 600;
+}
+.result-answer {
+  font-size: 14px;
+  width: 95%;
+}
